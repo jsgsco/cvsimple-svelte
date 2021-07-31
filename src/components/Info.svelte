@@ -7,9 +7,9 @@
             <p>I have been a web developer for a little less than 1 year, I have experience in web technologies such as ReactJS and Svelte.</p>
         </div>
         <div class="contain-social">
-            <a href="https://www.facebook.com/jhondev2/" class="btn"> <i class="bi bi-facebook" target="_blank"></i> Facebook</a>
-            <a href="https://github.com/jsgsco" class="btn"> <i class="bi bi-github" target="_blank"></i> GitHub</a>
-            <a href="https://www.linkedin.com/in/jsgsco/" class="btn" target="_blank"> <i class="bi bi-linkedin"></i> LinkedIn</a>
+            <a href="https://www.facebook.com/jhondev2/" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-facebook"></i> Facebook</a>
+            <a href="https://github.com/jsgsco" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/jsgsco/" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-linkedin"></i> LinkedIn</a>
         </div>
         
     </div>

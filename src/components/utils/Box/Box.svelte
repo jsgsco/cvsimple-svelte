@@ -10,7 +10,7 @@
     <div class="info">
         <p class="technologyes">Frameworks: {technologyes}</p>
         <p class="summary">{summary}</p>
-        <a href={url} target="_blank"> <i class="bi bi-github" target="_blank"></i> GitHub</a>
+        <a href={url} target="_blank" rel="noreferrer"> <i class="bi bi-github"></i> GitHub</a>
     </div>
 </main>
 
