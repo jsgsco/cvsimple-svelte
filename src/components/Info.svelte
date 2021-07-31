@@ -1,9 +1,3 @@
-<svelte:head>
-	<title>John's Ranch</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="https://i.imgur.com/4SzTP0s.png">
-</svelte:head>
-
 <main>
     <div class="container">
         <h1>Hi, I am <span>Jhon Steven Saavedra</span> </h1>

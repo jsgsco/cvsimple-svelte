@@ -8,7 +8,7 @@
 <main>
     <p class="title">{title}</p>
     <div class="info">
-        <p class="technologyes">{technologyes}</p>
+        <p class="technologyes">Frameworks: {technologyes}</p>
         <p class="summary">{summary}</p>
         <a href={url} target="_blank"> <i class="bi bi-github" target="_blank"></i> GitHub</a>
     </div>
