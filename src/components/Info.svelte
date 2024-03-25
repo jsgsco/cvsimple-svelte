@@ -1,13 +1,12 @@
 <main>
     <div class="container">
         <h1>Hi, I am <span>Jhon Steven Saavedra</span> </h1>
-        <h2>Front-end Developer in ReactJS</h2>
+        <h2>Data Developer</h2>
         <div class="contain-info">
-            <p>It goes without saying my name again, I am from Colombia from a city called Villavicencio, I started in the development world about 2 years ago, clearly starting with HTML CSS and without knowing anything about JavaScript, today I feel very happy with it. that I achieved thanks to my self-taught effort and with courses from different platforms.</p>
-            <p>I have been a web developer for a little less than 1 year, I have experience in web technologies such as ReactJS and Svelte.</p>
+            <p>I am a professional passionate about Cloudera cluster management and the open source ecosystem, with solid experience in Python, PySpark, and frontend development with React.js. My professional career has focused on creating robust and efficient web applications to manage large volumes of data and develop interactive and intuitive web applications.</p>
         </div>
         <div class="contain-social">
-            <a href="https://www.facebook.com/jhondev2/" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-facebook"></i> Facebook</a>
+            <a href="https://www.facebook.com/lmgcco/" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-facebook"></i> Facebook</a>
             <a href="https://github.com/jsgsco" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-github"></i> GitHub</a>
             <a href="https://www.linkedin.com/in/jsgsco/" class="btn" target="_blank" rel="noreferrer"> <i class="bi bi-linkedin"></i> LinkedIn</a>
         </div>
@@ -38,7 +37,7 @@
     p {
         margin: 7px 0;
         font-size: 15px;
-        font-style: oblique;
+        text-align: justify;
     }
 
     main {
@@ -60,12 +59,13 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 45px;
         font-weight: normal;
     }
 
     h2 {
         margin-bottom: 10px;
+        font-size: 25px;
     }
 
     span {
@@ -75,6 +75,7 @@
 
     .contain-info {
         width: 50%;
+        margin-top: 15px;
     }
 
     .btn {
@@ -95,7 +96,7 @@
     }
 
     .contain-social {
-        margin-top: 15px;
+        margin-top: 20px;
     }
 
     @keyframes info {

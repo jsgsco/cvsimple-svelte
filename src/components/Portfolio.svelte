@@ -4,7 +4,7 @@
     let proyects = []
 
     onMount(async () => {
-        const url = 'https://jsgsco-server.herokuapp.com/features'
+        const url = 'https://jsgsco-server.herokuapp.com/features' 
         const res = await fetch(url)
         proyects = await res.json() 
     })
@@ -14,22 +14,19 @@
 <main>
     <div class="container">
         <div class="text-behind">
-            <h3>Portfolio</h3>
-            <h4>Proyects</h4>
+            <h3>Works</h3>
+            <h4>Experience</h4>
         </div>
 
         <div class="proyects">
-            {#each proyects as proyect}
-                <Box 
-                    summary={proyect.summary}
-                    technologyes={proyect.technologyes}
-                    title={proyect.title}
-                    url={proyect.url}
-                />
-            {:else}
-                <p>Loading...</p>
-            {/each}
+            <Box 
+                summary="Performed the migration from Cloudera CDH to Cloudera CDP, ensuring data integrity and minimizing system downtime. Adapted and migrated PySpark code to ensure compatibility and optimize performance on the new platform. Developed dynamic and visually appealing dashboards in Power BI, providing real-time analysis and facilitating informed decision making. Successfully implemented Kafka and Flume for real-time data ingestion and processing, improving scalability and efficiency of the data system. Additionally, I configured and installed Kafka and Flume to ensure connectivity and reliability of data flow across Cloudera infrastructure. Developed interactive web applications using React.js to enhance user experience and provide an intuitive interface for data visualization and manipulation."
+                title="Woombat Consulting Group"
+                technologyes="2021/09 - At the moment"
+            />
         </div>
+
+        
 
     </div>
 </main>

@@ -8,15 +8,14 @@
 <main>
     <p class="title">{title}</p>
     <div class="info">
-        <p class="technologyes">Frameworks: {technologyes}</p>
+        <p class="technologyes">{technologyes}</p>
         <p class="summary">{summary}</p>
-        <a href={url} target="_blank" rel="noreferrer"> <i class="bi bi-github"></i> GitHub</a>
     </div>
 </main>
 
 <style>
     main {
-        width: 40%;
+        width: 90%;
         background-color: #0d0d0dfd;
         padding: 10px;
         margin: 5px;
@@ -31,8 +30,9 @@
     }
 
     .info {
-        margin-left: 20px;
+        margin-left: 15px;
         font-size: 14px;
+        text-align: justify;
     }
 
     a {
